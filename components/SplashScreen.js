@@ -33,7 +33,7 @@ export default function SplashScreen() {
     <div className="splash" style={{ opacity: fading ? 0 : 1 }}>
       <div className="flex flex-col items-center">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/ig.png" alt="iGotchu" className="splash-logo-img" />
+        <img src="/ig2.png" alt="iGotchu" className="splash-logo-img" />
         <div className="splash-track">
           <div className="splash-fill" />
           <div className="splash-cat-wrap">
