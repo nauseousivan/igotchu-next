@@ -11,7 +11,7 @@
 
 iGotchu is a little file-sharing hub built for MCNP and ISAP students to pass down reviewers, notes, and cheat sheets without the group-chat chaos. Drop a file (or a Google Drive link), get a 6-character code, send it to the freshies. That's it. ⚡
 
-## What it does
+## <img src="app/icon.png" width="26" valign="middle" alt=""> What it does
 
 - **Upload** a file (PDF, DOCX, PPTX, JPG, PNG, ZIP — up to 50MB) or paste a link instead
 - **Get a code** like `A9K2XQ` — share the code or the link, whichever's easier
@@ -21,7 +21,7 @@ iGotchu is a little file-sharing hub built for MCNP and ISAP students to pass do
 - **Admin dashboard** — stats, feedback inbox, and a delete button for when someone shares something they shouldn't 🐱
 - A coffee button with an X that really doesn't want to be caught
 
-## Stack
+## <img src="app/icon.png" width="26" valign="middle" alt=""> Stack
 
 Started life as plain PHP + MySQL, rewritten to actually deploy for free:
 
@@ -30,7 +30,7 @@ Started life as plain PHP + MySQL, rewritten to actually deploy for free:
 - [Vercel](https://vercel.com) — hosting + cron for expired-file cleanup
 - Plain CSS (no component library) — the neobrutalist "squish" look is hand-rolled
 
-## Running it locally
+## <img src="app/icon.png" width="26" valign="middle" alt=""> Running it locally
 
 ```bash
 npm install
@@ -43,7 +43,7 @@ You'll also need to:
 2. Create a public Storage bucket named `upload`.
 3. Generate an admin password: `node scripts/gen-admin-secrets.js "your-password"` → paste the output into `.env.local`.
 
-## Deploying
+## <img src="app/icon.png" width="26" valign="middle" alt=""> Deploying
 
 Push to Vercel, set the same env vars from `.env.local.example` in the project settings, done. `vercel.json` already wires up the daily cleanup cron.
 
