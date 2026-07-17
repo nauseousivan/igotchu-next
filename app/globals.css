@@ -444,7 +444,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.6s ease;
 }
 
 .splash-logo-img {
@@ -476,7 +476,7 @@ body {
   width: 0%;
   background: var(--lime);
   border-radius: 999px;
-  animation: splash-fill 1.4s ease-out forwards;
+  animation: splash-fill 2.6s ease-out forwards;
 }
 
 .splash-cat-wrap {
@@ -484,7 +484,7 @@ body {
   top: 50%;
   left: 0%;
   transform: translate(-50%, -50%);
-  animation: splash-cat-move 1.4s ease-out forwards;
+  animation: splash-cat-move 2.6s ease-out forwards;
 }
 
 .splash-cat {

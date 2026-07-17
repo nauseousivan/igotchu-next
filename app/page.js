@@ -4,7 +4,6 @@ import { collegeForCourse } from "@/lib/constants";
 import { Icon, UploadIcon } from "@/components/icons";
 import { uploadExtLabel, timeAgo } from "@/lib/format";
 import HubSearch from "@/components/HubSearch";
-import SplashScreen from "@/components/SplashScreen";
 
 export const dynamic = "force-dynamic";
 
@@ -26,8 +25,6 @@ export default async function HubPage({ searchParams }) {
 
   return (
     <>
-      <SplashScreen />
-
       <section className="pt-6 pb-6 sm:text-center sm:pt-20 sm:pb-12">
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight uppercase leading-[1.05]">
           Share reviewers
